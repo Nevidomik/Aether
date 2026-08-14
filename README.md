@@ -1,20 +1,22 @@
 # Astra
 
-Технічна документація університетського кіберполігону на базі Proxmox VE та маршрутизатора-комутатора MikroTik.
+**Astra** — технічна документація університетського навчального кіберполігону.
 
-## Навігація
+Полігон побудований на базі **Proxmox VE** та мережевого обладнання **MikroTik** і призначений для розгортання ізольованих навчальних середовищ, проведення лабораторних робіт і практичних занять з кібербезпеки.
 
-- [Архітектура](docs/architecture/README.md)
-- [Облік обладнання](docs/inventory/README.md)
-- [Мережа](docs/network/README.md)
-- [Proxmox VE](docs/proxmox/README.md)
-- [MikroTik](docs/mikrotik/README.md)
-- [Сервіси](docs/services/README.md)
-- [Лабораторні середовища](docs/labs/README.md)
-- [Експлуатація](docs/operations/README.md)
-- [Безпека](docs/security/README.md)
-- [Усунення несправностей](docs/troubleshooting/README.md)
-- [Аварійне відновлення](docs/disaster-recovery/README.md)
-- [Шаблони документів](docs/templates/README.md)
+## Структура документації
 
-Схеми та ілюстрації зберігаються у `docs/assets/`.
+```text
+docs/
+├── architecture/       # Архітектура та мережа
+├── infrastructure/     # Обладнання, MikroTik, Proxmox
+├── services/           # Розгорнуті сервіси
+├── labs/               # Навчальні середовища та сценарії
+├── operations/         # Експлуатація, backup та troubleshooting
+├── security/           # Заходи безпеки
+└── assets/             # Схеми, зображення та інші матеріали
+```
+
+Документація підтримується відповідно до фактичного стану кіберполігону та доповнюється в міру розвитку його інфраструктури.
+
+Єдине, що варто перевірити перед комітом: чи **реально існують `README.md`** у `infrastructure/`, `services/`, `labs/`, `operations/` і `security/`. Якщо якісь із них зараз порожні заглушки, я б не посилався на них із головного README до появи змістовного документа.
