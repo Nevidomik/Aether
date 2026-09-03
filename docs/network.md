@@ -33,7 +33,7 @@
 
 ### 2.2. Схема передньої панелі MikroTik
 
-![Схематичне розташування портів MikroTik](assets/mikrotik-port-map-placeholder.png)
+![Схематичне розташування портів MikroTik](assets/mikrotik-port-map-placeholder.jpg)
 
 > Тимчасове зображення. Призначення портів ще не підтверджено.
 
